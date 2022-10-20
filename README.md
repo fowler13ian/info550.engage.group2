@@ -26,7 +26,9 @@ Descriptive analysis table (table 1) -- by selected week description of each vid
 
 Visual analysis (Figures) -- by selected week correlation analysis matrix (Yu Cao)
 
-Linear regression analysis (dual exposures)  – select which regression to be included in final output unique_viewers (by video title) ~ length + video_number + length*video_number (Ian F)
+Linear regression analysis (dual exposures)  – select which regression to be included in final output
+
+unique_viewers (by video title) ~ length + video_number + length*video_number (Ian F)
 
 unique_viewers (grouped by week) ~ length + video_number + length*video_number (Natalie)
 
