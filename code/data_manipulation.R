@@ -7,7 +7,7 @@ library(stringr)
 
 # load in original dataset
 # for reproduction purpose, use here::here
-engage <- read.csv(here::here("data/course_engagement.csv"))
+engage <- read.csv(here::here("raw_data/course_engagement.csv"))
 
 # split the length variable by ":" and save the output to seconds, minutes, and hours
 for (i in 1:nrow(engage)) {
@@ -27,4 +27,4 @@ engage$total_min <- engage$total_sec/60
 
 # output to rds file
 # for reproduction purpose, use here::here
-saveRDS(engage, file = here::here("data", "course_engagement_edit.rds"))
+saveRDS(engage, file = here::here("output", "course_engagement_edit.rds"))
