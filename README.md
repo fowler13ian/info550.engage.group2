@@ -16,17 +16,17 @@
 
 ### Group Member Roles:
 
-  Team lead: Ian Fowler
+  *Team lead*: Ian Fowler
 
-  Coder: Chenxi Du, Natalie Hakim, Yu Cao
+  *Coder*: Chenxi Du, Natalie Hakim, Yu Cao
 
 ### Coding Elements:
 
-Descriptive analysis table (table 1) -- by selected week description of each video including all variables (Chenxi Du)
+__Descriptive analysis table (table 1)__ -- by selected week description of each video including all variables (Chenxi Du)
 
-Visual analysis (Figures) -- by selected week correlation analysis matrix (Yu Cao)
+__Visual analysis (Figures)__ -- by selected week correlation analysis matrix (Yu Cao)
 
-Linear regression analysis (dual exposures)  – select which regression to be included in final output
+__Linear regression analysis__  – select which regression to be included in final output
 
 unique_viewers (by video title) ~ length + video_number + length*video_number (Ian F)
 
@@ -36,11 +36,14 @@ unique_viewers (grouped by topic) ~ length + video_number + length*video_number 
 
 ### Organizational Structure
 
-project folder > project(week_).Rmd render_report.R makefile project(week_).html
-                 /data folder > raw data
-                 /code folder > code.R for analyses coded by each coder
-                 /output folder > code chunk output.Rds/.png
+`project folder` <- project(week_).Rmd render_report.R makefile project(week_).html
+
+`/data folder` <- raw data
+              
+`/code folder` <- code.R for analyses coded by each coder
+                 
+`/output folder` <- code chunk output.Rds/.png
 
 ### Customization
 
-config file with environmental variables > change week/topic being analyzed/output withc proper labels + select appropriate regression
+__config file with environmental variables__ <- change week/topic being analyzed/output with proper labels + select appropriate regression
