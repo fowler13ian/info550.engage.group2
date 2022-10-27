@@ -1,3 +1,4 @@
 output/*.rds
+output/*.png
 *.html
 *.pdf
