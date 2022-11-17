@@ -1,0 +1,73 @@
+---
+title: 'Engagement Report: Group 2'
+author: ''
+date: '`r Sys.Date()`'
+output:
+  html document:
+    highlight: tango
+    toc; true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+```{r here}
+here::i_am('engage_report.Rmd')
+```
+
+```{r load data}
+table1 <- readRDS(
+  here::here('output/table1.rds')
+)
+
+plot1 <- readRDS(
+  here::here('output/plot1.png')
+)
+
+plot2 <- readRDS(
+  here::here('output/plot2.png')
+)
+
+reg_title_tbl <- readRDS(
+  here::here('output/reg_title_tbl.rds')
+) 
+
+reg_topic_tbl <- readRDS(
+  here::here('output/reg_topic_tbl.rds')
+) 
+
+reg_week_tbl <- readRDS(
+  here::here('output/reg_week_tbl.rds')
+) 
+```
+
+## Descriptive Analysis
+
+### Table 1
+
+```{r table 1}
+
+```
+
+### Plot 1
+
+```{r plot 1}
+#| fig.align = "center",
+#| out.width = "700px"
+
+```
+
+### Plot 2
+
+```{r plot 2}
+#| fig.align = "center",
+#| out.width = "700px"
+
+```
+
+## Regression Analysis
+
+```{r reg table}
+
+```
