@@ -1,0 +1,14 @@
+default:
+  title: TRUE
+  topic: FALSE
+  week: FALSE
+
+topic:
+  title: FALSE
+  topic: TRUE
+  week: FALSE
+
+week:
+  title: FALSE
+  topic: FALSE
+  week: TRUE
