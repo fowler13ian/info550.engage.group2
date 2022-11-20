@@ -2,3 +2,5 @@ output/*.rds
 output/*.png
 *.html
 *.pdf
+.Rhistory
+.DS_Store
