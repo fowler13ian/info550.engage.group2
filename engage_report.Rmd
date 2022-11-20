@@ -12,6 +12,13 @@ output:
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 ```
 
+```{r, read-config, include = FALSE}
+WHICH_CONFIG <- Sys.getenv("WHICH_CONFIG")
+config_list <- config::get(
+  config = WHICH_CONFIG
+)
+```
+
 ```{r here}
 here::i_am('engage_report.Rmd')
 ```
@@ -64,6 +71,14 @@ plot2
 
 ## Regression Analysis
 
-```{r reg table}
+```{r regression table, title, include=config_list$title}
+reg_title_tbl
+```
 
+```{r regression table, topic, include=config_list$topic}
+reg_topic_tbl
+```
+
+```{r regression table, week, include=config_list$week}
+reg_week_tbl
 ```
