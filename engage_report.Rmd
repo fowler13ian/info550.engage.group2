@@ -3,7 +3,7 @@ title: 'Engagement Report: Group 2'
 author: ''
 date: '`r Sys.Date()`'
 output:
-  html document:
+  html_document:
     highlight: tango
     toc: true
 ---
