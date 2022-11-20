@@ -54,7 +54,7 @@ reg_week_tbl <- readRDS(
 ### Table 1
 
 ```{r table 1}
-
+table1
 ```
 
 ### Plot 1
