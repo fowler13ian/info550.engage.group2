@@ -1,4 +1,4 @@
-INFO550_EngagementReport_Group2.html: engage_report.Rmd code/render_report.R descript.analysis regress.analysis
+INFO550_EngagementReport_Group2_${WHICH_CONFIG}.html: engage_report.Rmd code/render_report.R descript.analysis regress.analysis
 	Rscript code/render_report.R
 
 output/course_engagement_edit.rds: raw_data/course_engagement.csv code/data_manipulation.R
