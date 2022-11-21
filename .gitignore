@@ -4,3 +4,4 @@ output/*.png
 *.pdf
 .Rhistory
 .DS_Store
+.Rproj.user
