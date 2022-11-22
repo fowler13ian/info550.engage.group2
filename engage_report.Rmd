@@ -1,6 +1,6 @@
 ---
 title: 'Engagement Report: Group 2'
-author: ''
+author: 'Chenxi Du, Ian Fowler, Natalie Hakim, & Yu Cao'
 date: '`r Sys.Date()`'
 output:
   html_document:
@@ -53,11 +53,15 @@ reg_week_tbl <- readRDS(
 
 ### Table 1
 
+__Table 1__ describes the characteristics of the overall set of videos _(n = 80)_
+
 ```{r table 1}
 table1
 ```
 
 ### Plot 1
+
+__Plot 1__ describes the distribution of video statistics
 
 ```{r plot 1, echo=FALSE, out.width="50%", fig.cap="Plot1 Distribution of the variables", fig.align = "center", out.width = "700px"}
 plot1
@@ -65,11 +69,15 @@ plot1
 
 ### Plot 2
 
+__Plot 2__ describes the correlation of the video statistics
+
 ```{r plot 2, echo=FALSE, out.width="50%", fig.cap="Plot2 Correlation heatmap of the variables", fig.align = "center", out.width = "700px"}
 plot2
 ```
 
 ## Regression Analysis
+
+The __regression table__ below describes the results of the regression of unique viewers by _video title_, _video topic_, or _week of upload_
 
 ```{r regression table, title, include=config_list$title}
 reg_title_tbl

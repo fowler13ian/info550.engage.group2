@@ -18,7 +18,7 @@
 
   *Team lead*: Ian Fowler
 
-  *Coder*: Chenxi Du, Natalie Hakim, Yu Cao
+  *Coders*: Chenxi Du, Natalie Hakim, Yu Cao
 
 ### Coding Elements:
 
@@ -44,6 +44,22 @@ unique_viewers (grouped by topic) ~ length + video_number + length*video_number 
                  
 `/output folder` <- code chunk output.Rds/.png
 
+`/renv folder` <- contains necessary files for renv::restore
+
 ### Customization
 
 __config file with environmental variables__ <- change week/topic being analyzed/output with proper labels + select appropriate regression
+
+### Rendering the Report
+
+The __"make install"__ command will initialize the `renv::restore` and install the necessary packages for rendering the report
+
+The *engage_report.html* will render if the __"make"__ command is entered into the terminal
+
+To set which regression output will be included in the model, __"export WHICH_CONFIG="__ must be entered into the terminal
+
+- __"export WHICH_CONFIG=default"__ <- unique_viewers (by video title)
+- __"export WHICH_CONFIG=week"__ <- unique_viewers (grouped by week)
+- __"export WHICH_CONFIG=topic"__ <- unique_viewers (grouped by topic)
+
+The __"make clean"__ command will remove all contents of the `/output` folder and the rendered report
