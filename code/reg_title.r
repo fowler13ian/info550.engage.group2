@@ -5,6 +5,7 @@ library(tidyr)
 library(dplyr)
 library(gtsummary)
 library(labelled)
+library(car)
 
 # load in edited dataset
 engage <- readRDS(file = here::here("output/course_engagement_edit.rds"))
