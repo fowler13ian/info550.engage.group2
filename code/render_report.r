@@ -3,5 +3,6 @@ here::i_am(
 )
 
 rmarkdown::render(
-  here::here("engage_report.Rmd")
+  here::here("engage_report.Rmd"),
+  output_file = 'INFO550_EngagementReport_Group2_${WHICH_CONFIG}.html'
 )

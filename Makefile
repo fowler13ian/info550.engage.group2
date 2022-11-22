@@ -34,4 +34,4 @@ regress.analysis: output/reg_title_tbl.rds output/reg_topic_tbl.rds output/reg_w
 
 .PHONY: clean
 clean:
-	rm -f output/*.rds && rm -f output/*.png && rm -f *.html
+	rm -f output/*.rds && rm -f output/*.png && rm -f *.html && rm -f *.pdf
